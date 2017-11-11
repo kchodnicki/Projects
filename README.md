@@ -1,3 +1,3 @@
 # Projects
 
-Playground for Golang learning :)
+Playground for various learning :)
