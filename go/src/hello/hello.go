@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math/rand"
+	"time"
+)
 
 func main() {
-	fmt.Printf("hello, world\n")
+	s1 := rand.NewSource(time.Now().UnixNano())
+	r1 := rand.New(s1)
+	fmt.Println(r1.Intn(10))
 }
