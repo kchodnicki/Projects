@@ -51,4 +51,5 @@ func main() {
 		}
 		fmt.Println(L[i][len(input)-1])
 	}
+	fmt.Println("[()]")
 }
